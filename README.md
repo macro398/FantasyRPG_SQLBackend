@@ -3,7 +3,7 @@
  
  **Description**: 
  
- This project is the theoretical back end for a Fantasy RPG game and includes the ER diagram as well as the SQL statements to create the entire SQL database for the game. I additionaly set up a REST API endpoint on the characters database that allows for the following:
+ This project is the theoretical back end for a Fantasy RPG game and includes the ER diagram as well as the SQL statements to create the entire SQL database for the game. I additionally set up a REST API endpoint on the characters database that allows for the following:
  
 **Get** -> baseURL/characters 
   
@@ -47,7 +47,7 @@
   
 **Project Retrospective:**  
 1. How did the project's design evolve over time?
-  Over time there were changes to the original ER Diagram that were collumns that I had overlooked before starting to code as well as some changes in inheritance that were made    to reduce any duplication of data that would have been needed. Specifically I had originally planned to tie a mob (generic monster that a player fights) directly into            abilities, when instead it made more sense to say that a mob has a specific class, for example a goblin sorcerer would be similar to a human sorcerer in that they are both       sorcerers and therefor both would be able to cast a basic Fire Bolt spell.
+  Over time there were changes to the original ER Diagram that were columns that I had overlooked before starting to code as well as some changes in inheritance that were made    to reduce any duplication of data that would have been needed. Specifically I had originally planned to tie a mob (generic monster that a player fights) directly into            abilities, when instead it made more sense to say that a mob has a specific class, for example a goblin sorcerer would be similar to a human sorcerer in that they are both       sorcerers and therefor both would be able to cast a basic Fire Bolt spell.
 
 2. Did you choose to use an ORM or raw SQL? Why?
   When given the choice between the two, I chose to use ORM to build out the API because I already felt comfortable with SQL and since the whole purpose of this class is to        learn, I chose to go with the new concept to better understand it. That being said, I still used raw SQL queries to create, and add testing data to the database.
